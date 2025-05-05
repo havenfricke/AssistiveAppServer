@@ -10,13 +10,13 @@ app.use(express.json());
 const items = [
   {
     id: '7fa2e3a4-2d6f-4c6e-90e0-bfda8e3432d4',
-    title: 'Test Item',
-    description: 'This is some data linked to this UUID.'
+    netID: 'assistiveapp-cfa',
+    desc: 'BSU Campus Chick-fil-A - Student Union Bldg'
   },
   {
     id: '123e4567-e89b-12d3-a456-426614174000',
-    title: 'Second Item',
-    description: 'This is another test item.'
+    netID: 'assistiveapp-c32',
+    desc: 'BSU Campus Cafe 32 - Albertson\'s Library'
   }
 ];
 
